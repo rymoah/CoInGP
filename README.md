@@ -1,4 +1,4 @@
-# CoInGP
+# CoInGP -- Convolutional Inpainting with Genetic Programming
 
 GitHub repository for the source code of the paper:
 
