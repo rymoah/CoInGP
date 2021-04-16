@@ -1,0 +1,30 @@
+<ECF>
+    <Algorithm>
+        <SteadyStateTournament>
+            <Entry key="tsize">3</Entry>
+        </SteadyStateTournament>
+    </Algorithm>
+    <Genotype>
+        <Tree>
+            <Entry key="functionset">sin cos + - / * pos min max avg sqrt</Entry>
+            <Entry key="maxdepth">8</Entry>
+            <Entry key="terminalset">[-1 1]</Entry>
+        </Tree>
+    </Genotype>
+    <Registry>
+		<Entry key="input_file">train.txt</Entry>
+		<Entry key="linear_scaling">1</Entry>
+		<Entry key="data_offset">0</Entry>
+		<Entry key="data_skip">1</Entry>
+
+        <Entry key="log.filename">log.txt</Entry>
+        <Entry key="log.level">3</Entry>
+        <Entry key="mutation.indprob">0.3</Entry>
+        <Entry key="population.size">500</Entry>
+        <Entry key="term.stagnation">50</Entry>
+		<Entry key="term.maxgen">50</Entry>
+		<Entry key="term.fitnessval">0</Entry>
+        <Entry key="batch.repeats">0</Entry>
+		<Entry key="batch.statsfile">stats.txt</Entry>
+    </Registry>
+</ECF>
