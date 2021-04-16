@@ -1,6 +1,7 @@
 from PIL import Image
 import random
 import math
+import sys
 
 N_PIXELS = 100
 IMAGE = sys.argv[1]
