@@ -7,7 +7,7 @@
     <Genotype>
         <Tree>
             <Entry key="functionset">sin cos + - / * pos min max avg sqrt</Entry>
-            <Entry key="maxdepth">8</Entry>
+            <Entry key="maxdepth">4</Entry>
             <Entry key="terminalset">[-1 1]</Entry>
         </Tree>
     </Genotype>
@@ -22,7 +22,7 @@
         <Entry key="mutation.indprob">0.3</Entry>
         <Entry key="population.size">500</Entry>
         <Entry key="term.stagnation">50</Entry>
-		<Entry key="term.maxgen">500</Entry>
+		<Entry key="term.maxgen">50</Entry>
 		<Entry key="term.fitnessval">0</Entry>
         <Entry key="batch.repeats">0</Entry>
 		<Entry key="batch.statsfile">stats.txt</Entry>
